@@ -5,6 +5,7 @@ With Json :
 
 {
 	"children": [
+	
 		{
 			"name": "tratra",
 			"age": "26",
@@ -40,6 +41,7 @@ With Json :
 	},
 	"ten": "Thao",
 	"age": "28"
+	
 }
 
 Create the sub object Man :
@@ -96,7 +98,9 @@ Example 2  : Input String and parse to List<Object>
   public String test = "[{\"ten\": \"Thang\", \"age\":\"26\"},{\"ten\": \"Thao\", \"age\":\"28\"}]";
   
 
-  - parse   Human human=ParseJson.parseJsonArray(Human.class,test);
+  - parse   
+  
+	Human human=ParseJson.parseJsonArray(Human.class,test);
   
   
 Example 3 :Input jsonObject parse to Object 
