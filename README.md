@@ -53,6 +53,7 @@ Create the sub object Children:
 
 public class Children {
     public String name,age;
+    
     public List<Man> subman;
 
 }
