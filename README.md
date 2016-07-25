@@ -78,27 +78,33 @@ Example 1: input String and parse to Object
 
   public String test = "{\"ten\": \"Thang\", \"age\":\"26\"}";
   
-  - create Object Human :
+  -create Object Human :
   
     public class Human {
 
     public String ten,age;
+      
       }
   
-  - parse  :             Human human=ParseJson.parseJsonObject(Human.class,test);
+  - parse  :   
+  
+	Human human=ParseJson.parseJsonObject(Human.class,test);
 
   
 Example 2  : Input String and parse to List<Object>
 
   public String test = "[{\"ten\": \"Thang\", \"age\":\"26\"},{\"ten\": \"Thao\", \"age\":\"28\"}]";
+  
 
   - parse   Human human=ParseJson.parseJsonArray(Human.class,test);
   
   
 Example 3 :Input jsonObject parse to Object 
+
     Usage :Human human=ParseJson.parseJson(Human.class,jsonObject);
 
 Example 4 :Input jsonarray parse to List<Object>
+
     Usage :List<Human> human=ParseJson.parseJson(Human.class,jsonArray);
 
 
