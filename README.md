@@ -45,6 +45,7 @@ With Json :
 Create the sub object Man :
 
 public class Man {
+
     public String name,age;
 
 } 
@@ -52,6 +53,7 @@ public class Man {
 Create the sub object Children:
 
 public class Children {
+
     public String name,age;
     
     public List<Man> subman;
@@ -61,6 +63,7 @@ public class Children {
 Create the main object to parse , call Human:
 
 public class Human {
+
     public List<CHILDREN> children;
     public Man man;
     public String ten,age;
@@ -78,6 +81,7 @@ Example 1: input String and parse to Object
   - create Object Human :
   
     public class Human {
+
     public String ten,age;
       }
   
