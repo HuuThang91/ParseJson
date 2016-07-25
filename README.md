@@ -76,6 +76,7 @@ Human human=ParseJson.parseJsonObject(Human.class,json);
 And the result as excpect , no need another libs like Gson anymmore(:D)
 --------------------------------------------------------------------------------------------------------------------------------------
 Useage :
+
 Example 1: input String and parse to Object
 
   public String test = "{\"ten\": \"Thang\", \"age\":\"26\"}";
