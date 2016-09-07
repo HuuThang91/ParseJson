@@ -1,4 +1,7 @@
 # ParseJson
+
+With java, need json library :http://mvnrepository.com/artifact/org.json/json
+
 Parse  Json to Object with only one class
 
 With Json :
@@ -73,7 +76,6 @@ public class Human {
 
 To parse Json just call 
 Human human=ParseJson.parseJsonObject(Human.class,json);
-And the result as excpect , no need another libs like Gson anymmore(:D)
 --------------------------------------------------------------------------------------------------------------------------------------
 Useage :
 
